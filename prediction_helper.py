@@ -1,10 +1,10 @@
 import pandas as pd
 from joblib import load
 
-model_young = load("C:/Codebasics_ML/HealthCare_Regression_Project/Artifact/model_young.joblib")
-model_rest = load("C:/Codebasics_ML/HealthCare_Regression_Project/Artifact/model_rest.joblib")
-scaler_young = load("C:/Codebasics_ML/HealthCare_Regression_Project/Artifact/scaler_young.joblib")
-scaler_rest = load("C:/Codebasics_ML/HealthCare_Regression_Project/Artifact/scaler_rest.joblib")
+model_young = load("Artifact/model_young.joblib")
+model_rest = load("Artifact/model_rest.joblib")
+scaler_young = load("Artifact/scaler_young.joblib")
+scaler_rest = load("Artifact/scaler_rest.joblib")
 
 
 def calculate_normalized_risk(medical_history):
